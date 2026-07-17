@@ -1,6 +1,6 @@
-library(marquee)
-md_text <- "<div style='background-color: blue; color: white;'>My previous GitHub account @0xsaifdev is suspended and under review, so it will hopefully reopen. For now, this is my new account.</div>"
-grid.draw(marquee_grob(md_text))
+<marquee direction="left">
+  ⚠️ My previous GitHub account <b>@0xsaifdev</b> is suspended and under review, so it will hopefully reopen. For now, this is my new account. ⚠️
+</marquee>
 
 # Muhammad Saif
 
