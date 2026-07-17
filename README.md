@@ -1,6 +1,4 @@
-<marquee direction="left">
-  ⚠️ My previous GitHub account <b>@0xsaifdev</b> is suspended and under review, so it will hopefully reopen. For now, this is my new account. ⚠️
-</marquee>
+<img src="gemini-svg.svg" alt="Account status update" />
 
 # Muhammad Saif
 
