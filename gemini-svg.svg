@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="40">
+  <style>
+    .marquee {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 16px;
+      font-weight: 500;
+    }
+    /* Automatically switches color based on the user's GitHub theme */
+    @media (prefers-color-scheme: dark) {
+      .marquee { fill: #c9d1d9; }
+    }
+    @media (prefers-color-scheme: light) {
+      .marquee { fill: #24292f; }
+    }
+  </style>
+  
+  <text y="25" class="marquee">
+    ⚠️ My previous GitHub account @0xsaifdev is suspended and under review, so it will hopefully reopen. For now, this is my new account. ⚠️
+    
+    <!-- This handles the actual running animation -->
+    <animate 
+      attributeName="x" 
+      from="850" 
+      to="-1000" 
+      dur="12s" 
+      repeatCount="indefinite" 
+    />
+  </text>
+</svg>
